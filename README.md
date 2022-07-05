@@ -9,10 +9,7 @@ Using starter html and css, I added a javascript file that after clicking the ge
 ## Usage
 
 After clicking the red button, you must enter a value between 8 and 128, then confirm at least one of the options to generate a password. If none are chosen or a correct number isn't put in the first prompt, a password won't generate.
-
-    ![alt text](assets/images/screen1.png)
-    ![alt text](assets/images/screen2.png)
-    ![alt text](assets/images/screen3.png)
+`md ![alt text](assets/images/screen1.png) ![alt text](assets/images/screen2.png) ![alt text](assets/images/screen3.png) `
 
 ## Credits
 
