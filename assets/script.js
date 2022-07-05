@@ -104,11 +104,12 @@ function generatePassword() {
   // First if statement containg confirms that will decide what characters are in password.
   if (input < 8 || input > 128) {
     input = parseInt(
-      prompt("The password must be between 8 and 128 characters.")
+      alert("The password must be between 8 and 128 characters.")
     );
+    generatePassword();
   } else if (!input) {
     alert("You must enter a number.");
-    return;
+    generatePassword();
   } else {
     confirmSpecial = confirm("Do you want special characters?");
     confirmNumbers = confirm("Do you want numbers?");
