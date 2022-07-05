@@ -116,6 +116,7 @@ function generatePassword() {
     confirmUppercase = confirm("Do you want uppercase letters?");
   }
   // If statements for the different combinations of decisions made in the confirms.
+  // First if is if all confirms are true
   if (
     confirmSpecial &&
     confirmNumbers &&
@@ -151,7 +152,9 @@ function generatePassword() {
     decision = letters;
   } else if (confirmUppercase) {
     decision = upperLetters;
-  } else if (
+  }
+  // if all confirms are false
+  else if (
     !confirmSpecial &&
     !confirmNumbers &&
     !confirmUppercase &&
