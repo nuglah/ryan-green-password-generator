@@ -2,7 +2,7 @@
 
 ## Description
 
-Using starter html and css, I added a javascript file that after clicking the genrate button would randomly genrate a password after setting parameters using prompts and confirms. Through this assignment I learned a lot about using javascript to make a functioning app. I also learned how to write a complex function that can take several different parameters and to be able to write the result of a function to the actual html.
+Using starter html and css, I added a javascript file that after clicking the genrate button would randomly genrate a password after setting parameters using prompts and confirms. Through this assignment I learned a lot about using javascript to make a functioning app. I also learned how to write a complex function that can take several different parameters and to be able to write the result of a function to the actual page.
 
 ## Installation
 
